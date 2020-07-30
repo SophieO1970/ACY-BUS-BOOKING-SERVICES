@@ -1,0 +1,46 @@
+body{
+  background-image: url(images/bus.png);
+  background-repeat: no-repeat;
+}
+nav{
+    margin: o auto;
+    padding: 0.1%;
+    margin-right: 0;
+  }
+  nav>ul{
+    text-align: right;
+  }
+  ul>li{
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  ul>li>a{
+    text-transform: uppercase;
+    padding: 0.1%;
+    text-decoration: none;
+    color: aqua;
+    width: 25%;
+  }
+  ul>li>a:hover{
+    box-shadow: 0 0 0 0.625em rgba(0, 0, 0 , 0.1), insert 0 0 0.625em rgba(255, 255, 255, 0.6);
+    background-color: rgba(107, 93, 84, 0.678);
+    color: rgba(203, 223, 24, 0.702)
+  }
+  h2{
+        text-align: left;
+  }
+  div>h1{
+      font-size: large;
+      font-weight: bolder;
+      font-style: italic;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-decoration: rgba(203, 223, 24, 0.702);
+      flex: center;
+  }
+  #home>h3{
+      font-style: italic;
+      text-size-adjust: small;
+      font-weight: bolder;
+      font-family: sans-serif;
+      text-decoration: rgba(223, 24, 197, 0.702);
+  }
