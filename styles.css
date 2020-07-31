@@ -70,3 +70,18 @@ h1{
 ::placeholder{
   color: rgb(216, 13, 13) !important;
 }
+#banner{
+  background-image: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5) ), url("https://www.capitalfm.co.ke/business/files/2016/11/CMC-BUSES-MAN.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#banner p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  color: white;
+  font-size: 50px;
+  font-style: italic;
+}
